@@ -5,9 +5,9 @@ export default function Header() {
 
   const links = [
     { name: "Home", href: "#" },
+    { name: "About", href: "#" },
     { name: "Services", href: "#" },
     { name: "Portfolio", href: "#" },
-    { name: "About", href: "#" },
     // { name: "Contact", href: "#" },
   ];
 
@@ -17,7 +17,7 @@ export default function Header() {
         <nav className="mx-auto flex items-center justify-between bg-white/10 px-5 md:px-20 py-3 backdrop-blur-xl shadow-lg">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <a href="#" className="text-xl font-bold text-white md:text-black">
+          <a href="#" className="text-xl font-bold text-black">
             Trisssh.
           </a>
         </div>
@@ -55,17 +55,17 @@ export default function Header() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`absolute h-0.5 w-6 bg-black transition-all duration-300 ${
               menuOpen ? "rotate-45" : "-translate-y-2"
             }`}
           />
           <span
-            className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`absolute h-0.5 w-6 bg-black transition-all duration-300 ${
               menuOpen ? "opacity-0" : "opacity-100"
             }`}
           />
           <span
-            className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
+            className={`absolute h-0.5 w-6 bg-black transition-all duration-300 ${
               menuOpen ? "-rotate-45" : "translate-y-2"
             }`}
           />
