@@ -5,6 +5,7 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 import Header from "./components/Header";
 import ProjectsSection from "./components/ProjectsSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -167,6 +168,9 @@ function App() {
 
         {/* PROJECTS SECTION */}
         <ProjectsSection />
+
+        {/* FOOTER */}
+        <Footer />
       </main>
     </>
   );
